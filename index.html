@@ -11,11 +11,12 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/tablet.css" media="(min-width: 930px)">
 </head>
 
 <body>
     <header>
-        <img src="/assets/img/logo.svg" alt="" />
+        <img src="./assets/img/logo.svg" alt="" />
         <div class="header--title-container">
             <h1>La próxima revolución en el intercambio de criptomonedas</h1>
             <p>
@@ -84,7 +85,7 @@
                         </table>
                     </div>
                     <div class="comissions__table-date">
-                        <p><b>Actualizado: 19 Julio 23:4</b></p>
+                        <p><b>Actualizado: 19 Julio 23:48</b></p>
                     </div>
                 </div>
             </section>
@@ -138,18 +139,46 @@
             </div>
             <section class="plans-container--slider">
                 <article class="plans-container--card">
-                    <p>Recomendado</p>
-                    <div>
-                        <h3>Pagp Anual</h3>
-                        <p>$ <span>99</span></p>
-                        <p>*Ahorras $129 comparado al plan mensual.</p>
-                        <button>Escoger este <span></span></button>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Mensual</h3>
+                        <p class="plan-card--price"><span>$ </span>19</p>
+                        <p class="plan-card--saving">Paga 1 vez al mes desde el día de tu compra.</p>
+                        <button class="plan-card-ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+                <article class="plans-container--card">
+                    <p class="recomended">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Anual</h3>
+                        <p class="plan-card--price"><span>$ </span>99</p>
+                        <p class="plan-card--saving">*Ahorras $129 comparado al plan mensual.</p>
+                        <button class="plan-card-ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+                <article class="plans-container--card">
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Lifetime alpha</h3>
+                        <p class="plan-card--price"><span>$ </span>129</p>
+                        <p class="plan-card--saving">Ahorro infinito</p>
+                        <p>(50 cupos)</p>
+                        <button class="plan-card-ca">Escoger este <span></span></button>
                     </div>
                 </article>
             </section>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="left">
+            <ul>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="./assets/img/logo-footer.svg" alt="Logo de Batatabit 2020">
+        </section>
+    </footer>
 </body>
 
 </html>
